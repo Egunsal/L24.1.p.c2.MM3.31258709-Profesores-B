@@ -1,7 +1,7 @@
 import Cl_Profesor from "./Cl_Profesor.js";
 export default class Cl_Contratado extends Cl_Profesor{
-    constructor(nombre,sueldo,horas){
-       super(nombre,sueldo)
+    constructor(nombre,bono,horas){
+       super(nombre,bono)
        this.horas = horas;      
     }
     get horas(){
